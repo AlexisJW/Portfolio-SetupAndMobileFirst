@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\.github",
-    "\\.github\\workflows"
+    "\\.github\\workflows",
+    "\\css"
   ],
-  "SelectedNode": "\\.github\\workflows\\linters.yml",
+  "SelectedNode": "\\css\\StyleSheet.css",
   "PreviewInSolutionExplorer": false
 }

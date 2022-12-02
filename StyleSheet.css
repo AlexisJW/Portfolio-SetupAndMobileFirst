@@ -10,6 +10,9 @@
   overflow: hidden;
   background-color: white;
   position: relative;
+  max-width: 100%;
+  margin: auto;
+  height: 100%;
 }
 
 .navigation #myLinks {
@@ -19,6 +22,9 @@
   left: 16.67%;
   right: 16.67%;
   top: 50%;
+  max-width: 100%;
+  margin: auto;
+  height: 100%;
 }
 
 .navigation a {
@@ -45,7 +51,6 @@
 }
 
 .section-back .test1 {
-  width: 327px;
   height: 150px;
   font-style: normal;
   font-weight: 700;
@@ -57,10 +62,10 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  max-width: 100%;
 }
 
 .section-back .test2 {
-  width: 327px;
   height: 146px;
   font-style: normal;
   font-weight: 400;
@@ -70,6 +75,7 @@
   order: 1;
   flex-grow: 0;
   color: #344563;
+  max-width: 100%;
 }
 
 .section-back .connect {
