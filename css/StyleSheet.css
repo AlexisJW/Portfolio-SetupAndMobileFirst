@@ -1,0 +1,95 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  height: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.navigation #myLinks {
+  display: none;
+  position: absolute;
+  color: red;
+  left: 16.67%;
+  right: 16.67%;
+  top: 50%;
+}
+
+.navigation a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#menu {
+  color: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section-back {
+  background-image: url("../image/header-shapes mobile.svg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.section-back .test1 {
+  width: 327px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.section-back .test2 {
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #344563;
+}
+
+.section-back .connect {
+  width: 119px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 39px;
+}
+
+.section-back .social {
+  height: 20.000062942504883px;
+  width: 170.1666717529297px;
+  left: 24px;
+  top: 470px;
+  border-radius: 0;
+}
